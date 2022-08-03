@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 20px;
+    height: 120px;
+    width: 100%;  
+    color: white;
+    background-color: rgb(196, 179, 179);
+    overflow: hidden;
+    
+    
+    
+}
+.logo img{
+height: 50px;
+width: 65px;
+
+border-radius: 20px;
+}
+.nav ul li{
+    float: left;
+    margin: 2%;
+    text-decoration: none;
+    list-style: none;
+}
+.gallray{
+    background-color: rgb(236, 229, 234);
+    height: 1700px;
+    overflow: hidden;
+   
+}
+
+.gallray h2{
+    margin: 20px;
+    color: white;
+    
+}
+.image{
+    float: left;
+    border: 5px solid rgb(206, 30, 138);
+    margin: 8%;
+    background-color: rgb(184, 165, 165);
+}
+.image p{
+    color: black;
+    font-size: 20px;
+}
+.about{
+    background-image: url(image/pexels-s-migaj-747964.jpg);
+     
+    overflow: hidden;   
+}
+.about img{
+    height: 300px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.about h2{
+   
+    font-size: 40px;
+    margin-top: 30px;
+}
+.about h6{
+    color: black;
+    font-size: 20pxf}
+    .from{
+        text-align: center;
+        background-color: rgb(190, 190, 187);
+        padding: 40px;
+        height: 370px;
+        width: 300px;
+        margin-left: 350px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        border-radius: 10px;
+        
+    }
+
+    .f{
+        background-color: rgb(253, 246, 246);
+        overflow: hidden;
+       
+        
+       }
+       .from input {
+        height: 30px;
+        width: 220px;
+        border-radius: 8px;
+        color: rgb(0, 0, 0);
+        text-decoration:none;
+        border: 2px solid white;
+
+        transition: transfrom .4s ;
+        color: rgb(0, 0, 0);
+       }
+       .from input:hover{
+        transform: scale(1.2);
+        color: rgb(0, 0, 0);
+        border: 2px solid #e42c50;
+
+       }
+
+       .btn{
+        background-color: #e42c50;
+        color: white;
+        border-radius: 30px;
+        text-decoration:none;
+        border: 2px solid transparent;
+        border-radius: 30px;
+        transition: transfrom .4s ;
+        
+    }
+    .btn:hover{
+        transform: scale(1.2);
+        color: white;
+    }
+    .from textarea{
+        height: 100px;
+        width: 220px;
+        border-radius: 8px;
+        color: rgb(0, 0, 0);
+        text-decoration:none;
+        border: 2px solid white;
+
+        transition: transfrom .4s }
+        
+    
+    .from textarea:hover{
+        transform: scale(1.2);
+        color: rgb(0, 0, 0);
+
+        border: 2px solid #e42c50;
+    }
+    .footer{
+        background-color: rgb(53, 53, 53);
+        text-align: center;
+        height: 200px;
+        width: 100%;
+        color: white;
+        padding-top: 30px;
+    }
+    @media (max-width:900px) {
+        html{
+            font-size: 55%;
+        }
+        section{
+            padding: 3rem 2rem ;
+
+        }
+    }
+    @media (max-width:450px) {
+        html{
+            font-size: 50%;
+        }
+}
+    @media (max-width:800px){
+        .header{
+            width: 800px;
+            height:120px;
+            
+        }
+       .header .nav ul{
+            margin-left: 150px;
+            margin-bottom: 30px;
+        }
+        
+        
+    }
+    @media (max-width:800px) {
+        .about img{
+            height: 180px;
+            width: 220px;
+            float: right;
+        }
+    }
+    @media (max-width:800px) {
+        .about h2{
+            float: left;
+        font-size: 20px;
+        
+        }
+        
+        
+            }
+                
+                
+                    
+    @media (max-width:800px) {
+        .about {
+        font-size: 20px;
+        
+        }
+    }
+    @media (max-width:800px) {
+        .image img{
+            float: left;
+        height: 100px;
+        width: 140px;
+        
+        }
+        
+        
+            }
+            @media (max-width:800px) {
+                .gallray{
+                    height: 1300px;
+
+                    width: 100%;
+                }
+            }
+            @media (max-width:800px){
+                .f{
+                    display: none;
+                }
+            }
+            
+            
